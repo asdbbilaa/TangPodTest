@@ -1,0 +1,6 @@
+framework module TangPodTest {
+  umbrella header "TangPodTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

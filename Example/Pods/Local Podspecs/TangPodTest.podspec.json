@@ -1,0 +1,22 @@
+{
+  "name": "TangPodTest",
+  "version": "0.1.0",
+  "summary": "A short description of TangPodTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Tang/TangPodTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Tang": "543582896@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Tang/TangPodTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "TangPodTest/Classes/**/*"
+}

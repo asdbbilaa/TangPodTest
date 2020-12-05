@@ -1,0 +1,16 @@
+PODS:
+  - TangPodTest (0.1.0)
+
+DEPENDENCIES:
+  - TangPodTest (from `../`)
+
+EXTERNAL SOURCES:
+  TangPodTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TangPodTest: ad25c1483273b9b520fbae419c29a79e0b11738c
+
+PODFILE CHECKSUM: 7684a40afbbb066bde4a2d8d3eea6e3f0ff37e62
+
+COCOAPODS: 1.8.4
