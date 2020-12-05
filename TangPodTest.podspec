@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TangPodTest'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of TangPodTest.'
+  s.version          = '0.0.1'
+  s.summary          = 'A test of Pod.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -32,10 +32,14 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'TangPodTest/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'TangPodTest' => ['TangPodTest/Assets/*.png']
-  # }
-
+  s.resource_bundles = {
+    'TangPodTest' => ['TangPodTest/Assets/*.xcassets']
+  }
+  
+  s.subspec 'UIKit' do |ss|
+      ss.source_files = 'TangPodTest/Classes/UIKit/*.{h,m}'
+  end
+  
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'

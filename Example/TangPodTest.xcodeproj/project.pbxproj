@@ -40,7 +40,7 @@
 		22716DA9113FE06309CB652D /* Pods-TangPodTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TangPodTest_Example.release.xcconfig"; path = "Target Support Files/Pods-TangPodTest_Example/Pods-TangPodTest_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2956B18E1430D0E68A9CF38E /* Pods-TangPodTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TangPodTest_Example.debug.xcconfig"; path = "Target Support Files/Pods-TangPodTest_Example/Pods-TangPodTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		401324BA6464DBEEAA878BEE /* Pods-TangPodTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TangPodTest_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TangPodTest_Tests/Pods-TangPodTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		43E4661FEC73943D0E8A93A8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		43E4661FEC73943D0E8A93A8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4C7E1F469D48BAA87BB0D001 /* Pods_TangPodTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TangPodTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F9F94F5F517111D57C9A268 /* Pods-TangPodTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TangPodTest_Tests.release.xcconfig"; path = "Target Support Files/Pods-TangPodTest_Tests/Pods-TangPodTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TangPodTest_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TangPodTest_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,10 +62,10 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6232FB82D493BEFED7B64583 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6232FB82D493BEFED7B64583 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C50B6882BC43BF9302BB7815 /* TangPodTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TangPodTest.podspec; path = ../TangPodTest.podspec; sourceTree = "<group>"; };
+		C50B6882BC43BF9302BB7815 /* TangPodTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TangPodTest.podspec; path = ../TangPodTest.podspec; sourceTree = "<group>"; };
 		E916592533C56D9862DB27AC /* Pods_TangPodTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TangPodTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				401324BA6464DBEEAA878BEE /* Pods-TangPodTest_Tests.debug.xcconfig */,
 				5F9F94F5F517111D57C9A268 /* Pods-TangPodTest_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Tang;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = YV4R4SS6R9;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = 2956B18E1430D0E68A9CF38E /* Pods-TangPodTest_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YV4R4SS6R9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TangPodTest/TangPodTest-Prefix.pch";
 				INFOPLIST_FILE = "TangPodTest/TangPodTest-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = 22716DA9113FE06309CB652D /* Pods-TangPodTest_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YV4R4SS6R9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TangPodTest/TangPodTest-Prefix.pch";
 				INFOPLIST_FILE = "TangPodTest/TangPodTest-Info.plist";
